@@ -1,0 +1,170 @@
+.idea/
+
+
+### Android ###
+
+# Android Studio
+.idea/
+*.iml
+
+# Build output
+/build/
+*/build/
+*.apk
+*.aab
+
+# Gradle
+.gradle/
+*/gradle/
+gradle-wrapper.jar
+gradle-wrapper.properties
+
+# Local configuration
+local.properties
+
+# IntelliJ
+*.iws
+*.ipr
+*.idea/
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Android-specific
+*.keystore
+*.jks
+google-services.json
+
+# NDK files
+obj/
+
+### Backend (Java / Spring) ###
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+
+# Spring
+*.log
+*.properties
+
+# JetBrains
+*.iml
+*.iws
+*.ipr
+
+### Blockchain ###
+
+# Ethereum (truffle)
+build/
+node_modules/
+
+# Hardhat
+artifacts/
+cache/
+node_modules/
+.env
+
+# Ganache
+*.log
+
+# IPFS
+ipfs-repo/
+
+### Jenkins ###
+
+# Jenkins
+/target/
+*.hpi
+*.jpi
+
+# Build logs
+*.log
+
+# Jenkins configuration
+config.xml
+credentials.xml
+jobs/
+
+### Docker ###
+
+# Docker
+*.tar
+.docker/
+.dockerignore
+
+# Docker Compose
+docker-compose.override.yml
+
+# Local Docker build
+**/Dockerfile
+**/docker-compose.yml
+**/.docker/
+
+### Python ### (If used for any backend services)
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+eggs/
+
+# Virtual environments
+env/
+.venv/
+ENV/
+venv/
+__pypackages__/
+
+# Package manager
+pip-log.txt
+pip-delete-this-directory.txt
+
+### Node.js ### (For backend or blockchain)
+
+# Node modules
+node_modules/
+
+# Logs
+*.log
+
+# npm
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# dotenv
+.env
+
+# Jest
+coverage/
+
+### OS Specific ###
+.DS_Store
+Thumbs.db
+
+### Other ###
+# .env files for environment configuration
+.env.*
+*.env
+
+# IDE config
+.vscode/
+
+# User specific files
+*.swp
+*.swo
